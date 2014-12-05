@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/easy")
 def isItThatEasy():
-    return "Yes, it is! Och God... Amazing!"
+    return "Yes, it is!"
 
 @app.route('/user/<username>')
 def show_user_profile(username):
